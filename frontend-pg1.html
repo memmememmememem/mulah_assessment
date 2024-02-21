@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page 1</title>
+    <script>
+      function page2(){
+        window.location.href = 'frontend-pg2.html'
+      }
+    </script>
+    <style>
+      .outer-container{
+        width: 640px;
+        height: 1136px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 50px;
+      }
+      .title{
+        font-family: lulo-clean-w01-one-bold, sans-serif;
+        font-size: 30px;
+        color: rgb(234, 138, 21);
+        font-weight: 900;
+        padding-left: 85px;
+        letter-spacing: 3px;
+      }
+      .welcome{
+        font-size: 55px;
+        line-height: 13px;
+        color: rgb(88, 87, 87);
+        letter-spacing: 3px;
+        font-weight: 600;
+      }
+      .prompt{
+        padding-top: 10px;
+        color: rgb(234, 138, 21);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      .input{
+        align-items: top;
+        padding-top: 70px;
+        padding-bottom: 50px;
+      }
+      .code{
+        font-size: 18px;
+        color: rgb(88, 87, 87);
+        width: 70px;
+        height: 30px;
+        border-bottom: 1;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom-color: rgb(234, 138, 21);
+        margin-right: 10px;
+      }
+      .number{
+        font-size: 15px;
+        color: rgb(88, 87, 87);
+        width: 200px;
+        height: 30px;
+        border-bottom: 1;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom-color: rgb(234, 138, 21);
+      }
+      .check-button{
+        background-color: rgb(234, 138, 21);
+        color: white;
+        border: none;
+        width: 290px;
+        height: 50px;
+        border-radius: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        cursor: pointer;
+      }
+      .bottom-bar{
+        margin-top: 60px;
+        margin-bottom: 20px;
+        border-top: 1;
+        border-bottom: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom-color: gainsboro;
+      }
+      .info{
+        padding-left: 50px;
+        color: rgb(165, 162, 162);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+      }
+      .link{
+        color: rgb(2, 2, 164);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer-container">
+    <div class="title">
+    <p>
+      MULAH
+    </p>
+    </div>
+    <div class="welcome">
+    <p>
+      Hello,
+    </p>
+    <p>
+      Welcome !
+    </p>
+    </div>
+    <div class="prompt">
+    <p>
+      Check Your Loyalty Points & Rewards
+    </p>
+    </div>
+    <div class="input">
+    <input class="code" type="number" placeholder="+60">
+    <input class="number" type="text" placeholder="Enter your mobile number">
+    </div>
+    <div>
+    <button class="check-button" onclick="page2()">
+      Check Loyalty Points
+    </button>
+    </div>
+    <div class="bottom-bar">
+      <p class="info">
+      Powered by <span class="link">MulahRewards.com</span> 
+    </p>
+    </div>
+    </div>
+  </body>
+</html>
